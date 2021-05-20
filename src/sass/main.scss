@@ -1,0 +1,44 @@
+@mixin transition(){
+  transition: all 0.7s linear;
+  -webkit-transition: all 0.7s linear;
+  -o-transition: all 0.7s linear;
+  -moz-transition: all 0.7s linear;
+}
+body{
+  background-color: #FAFAFA;
+
+}
+.dustlikdon{
+  .Search{
+    background: #FFFFFF;
+    box-shadow: 0 2px 2px rgba(204, 204, 204, 0.51);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+  }
+}
+
+.color{
+  background: #FFFFFF;
+  box-shadow: 0 2px 2px rgba(204, 204, 204, 0.51);
+  border-radius: 5px;
+
+  ul{
+    li{
+      padding: 8px;
+    }
+  }
+
+}
+.sildebarLeft{
+   width: 60%;
+   margin-right: 2%;
+ }
+.slidebarRightTop{
+  width: 38%;
+}
+.footerContent{
+  height: 400px;
+  background: #5E5E5E;
+
+}
